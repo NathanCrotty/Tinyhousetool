@@ -1,0 +1,42 @@
+            .header{
+                background-color: rgb(51, 163, 0);
+                color: white;
+                padding: 8px;
+                top: 0px;
+                position:fixed;
+                font-family: "arial", sans-serif;
+                overflow: auto;
+                width: 99%;
+                z-index: 900;
+            }
+            
+            .header,.left{
+                left: 0px;
+                text-align: left;
+            }
+            .header,.right{
+                float: right;
+            }
+            
+            /* unvisited link */
+            .header, a:link {
+                color: white;
+                text-decoration: none;
+            }
+
+            /* visited link */
+            .header, a:visited {
+                color: lightcyan;
+            }
+
+            /* mouse over link */
+            .header, a:hover {
+                color: white;
+                text-decoration: underline;
+            }
+
+            /* selected link */
+            .header, a:active {
+                color: white;
+                text-decoration: none;
+            }
